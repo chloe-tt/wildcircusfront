@@ -1,0 +1,26 @@
+.thumbs-wrapper.axis-vertical {
+    display:none;
+}
+
+h2 {
+    text-align:center;
+    color: #edc62b;
+    font-size: 40px;
+}
+
+.contentAboutUsContainer{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.textAboutUs{
+    width: 450px;
+    padding-right: 5%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.videoAboutUs {
+    padding-top:4%;
+}

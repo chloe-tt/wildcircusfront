@@ -1,0 +1,57 @@
+.headerContainer {
+    display: flex;
+    padding-top:1%;
+    justify-content: space-between;
+    position: fixed;
+    z-index:10000;
+    background-color:white;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+.logoContainer {
+    width: 15%;
+    height: 20%;
+    padding-left:2%;
+}
+
+.logo {
+    width: 70%;
+}
+
+.buyCTAContainer {
+    padding-right: 5%;
+    padding-top: 0.5%;
+}
+
+.buyCTA {
+    width: 180px;
+    height: 35px;
+    color:white;
+    background-color: #edc62b;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    
+}
+
+.buyCTA:hover {
+    width: 180px;
+    height: 35px;
+    color:white;
+    background-color: #edc62b;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.headerElementContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 321px;
+    padding-left: 30%;
+    padding-top: 1%;
+    font-size: 20px;
+}
