@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router()
 const connection = require('../config')
 const bcrypt = require('bcrypt')
+const jwt = require("jsonwebtoken");
 
 // GET ALL NEWS CREATED BY A SPECIFIC USER
 

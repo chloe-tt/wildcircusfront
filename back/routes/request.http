@@ -13,16 +13,16 @@ POST http://localhost:3000/api/news
 content-type: application/json
 
 { 
-"title": "test3@gmail.com",
-"text": "12345",
-"picture": "",
+"title": "5eme news",
+"text": "balkjelffr",
+"picture": "https://zupimages.net/up/20/30/mwxs.png",
 "user_name":"chloe",
 "user_id":1
 }
 
 ### Delete a news
 
-DELETE http://localhost:3000/api/news/3
+DELETE http://localhost:3000/api/news/4
 
 
 ### Modify a news
@@ -57,7 +57,7 @@ POST http://localhost:3000/api/users
 content-type: application/json
 
 { 
-"email": "test8@gmail.com",
+"email": "test15@gmail.com",
 "password": "abc"
 }
 
@@ -68,8 +68,8 @@ POST http://localhost:3000/api/users/login
 content-type: application/json
 
 { 
-"email": "test8@gmail.com",
-
+"email": "test15@gmail.com",
+"password":"abc"
 }
 
 
