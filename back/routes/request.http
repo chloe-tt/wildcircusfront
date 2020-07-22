@@ -1,0 +1,76 @@
+//Get all users
+
+GET http://localhost:3000/api/users
+
+### Get all news
+
+GET http://localhost:3000/api/news
+
+
+### Create a news
+
+POST http://localhost:3000/api/news
+content-type: application/json
+
+{ 
+"title": "test3@gmail.com",
+"text": "12345",
+"picture": "",
+"user_name":"chloe",
+"user_id":1
+}
+
+### Delete a news
+
+DELETE http://localhost:3000/api/news/3
+
+
+### Modify a news
+
+PUT http://localhost:3000/api/news/2
+content-type: application/json
+
+{
+"title": "modif title test",
+"text": "bonjour ceci est un test",
+"picture": "",
+"user_name":"chloe",
+"user_id":1
+}
+
+### Consult a news by id
+
+GET http://localhost:3000/api/news/2
+
+
+### Consult news created by a specific user
+
+GET http://localhost:3000/api/users/2
+
+###GET all users
+
+GET http://localhost:3000/api/users 
+
+### Create User and hask password
+
+POST http://localhost:3000/api/users
+content-type: application/json
+
+{ 
+"email": "test8@gmail.com",
+"password": "abc"
+}
+
+###Login, data check and token creation
+
+
+POST http://localhost:3000/api/users/login
+content-type: application/json
+
+{ 
+"email": "test8@gmail.com",
+
+}
+
+
+
