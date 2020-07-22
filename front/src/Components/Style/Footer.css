@@ -1,0 +1,46 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(45, 44, 44);
+    color: rgb(213, 211, 211);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footerElement1, .footerElement2, .footerElement3  {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.mapAdress {
+    border:none;
+    padding-left: 20px;
+}
+
+.containerElement3and4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerElement1, .footerElement2 {
+    line-height: 40px;
+    width: 200px;
+}
+
+.footerElement3 {
+    line-height: 02px;
+}
+
+.titleFindUS {
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.footerlink:hover {
+    color: #edc62b;
+    cursor: pointer;
+}

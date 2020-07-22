@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
             </Carousel>
         </div>
-        <div className="aboutUsConatiner">
+        <div className="aboutUsConatiner" id="about" >
             <h2>About Us</h2>
             <div className="contentAboutUsContainer">
                 <div className="videoAboutUs">

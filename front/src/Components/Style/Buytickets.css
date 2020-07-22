@@ -1,0 +1,169 @@
+.tiltePageBuyTicket {
+    padding-top: 80px;
+}
+
+.globalContainer {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.buyContainer{
+    height: 330px;
+    padding-top: 15px;
+    display:flex;
+    justify-content:center;
+    width: 70%;
+}
+
+.productSection {
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.labelContainer {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color:#edc62b; 
+    font-weight: bold;
+ 
+}
+
+.subtotalSection {
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-left: 2%;
+    background-color: #edc62b77;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.adultsTiketsContainer, .kidsTiketsContainer {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.value, .valueQty, .valueTicket {
+    display: flex;
+    justify-content: space-around;
+}
+
+.valueQty {
+    padding-top:-10%;
+}
+
+.removeTickets, .addTickets {
+    background:none;
+    border:none;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(41, 41, 41, 0.742);
+    margin-top:16%;
+
+}
+
+.removeTickets:hover, .addTickets:hover {
+    background:none;
+    border:none;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+    color:rgb(41, 41, 41);
+    margin-top:16%;
+
+}
+
+.adultQty {
+    padding-right: 20px;
+    padding-left:20px;
+    padding-top:0%;
+}
+
+.ticketPicture {
+    width: 120%;
+    padding-left: 12%;
+}
+
+.valueTicket {
+    width: 120px;
+}
+
+.valuePrice, .valueTotal {
+    width: 50px;
+    text-align:center;
+    padding-top: 5%;
+}
+
+.valueQty {
+    width:50px;
+    text-align:center;
+    padding-top: 1.5%;
+}
+
+.label {
+    width: 50px;
+    text-align:center;
+}
+.labelProduit {
+        width: 120px;
+        text-align: center;
+
+}
+
+.kidsTiketsContainer {
+    border-top: solid;
+    border-top-color: #edc62b77;
+    border-top-width: 0.5px;;
+    border-top-style: dotted;
+}
+
+.subTotalEuros {
+    text-align: center;
+    width: 100%;
+    margin-top:-1%;
+    font-size: 30px;
+    color: rgb(63, 61, 61);
+}
+
+.subTitle {
+    margin-left:-30%;
+    color: rgb(63, 61, 61);
+}
+
+.checkoutCTA {
+    background-color:rgba(63, 61, 61, 0.797);
+    color: white;
+    border-radius: 20px;
+    border:none;
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.checkoutCTA:hover {
+    background-color:rgb(63, 61, 61);
+    color: white;
+    border-radius: 20px;
+    border:none;
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    cursor:pointer;
+}
