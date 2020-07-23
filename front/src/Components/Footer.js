@@ -6,9 +6,9 @@ const Footer = () => {
     return (
      <div className="footerContainer">
          <div className="footerElement1">
-             <a className="footerlink">Performances</a>
-             <a className="footerlink">About us</a>
-             <a className="footerlink">News</a>
+             <a className="footerlink" href="#perf">Performances</a>
+             <a className="footerlink" href="#about">About us</a>
+             <a className="footerlink" href="#news">News</a>
          </div>
          <div className="footerElement2">
             <a className="footerlink">Buy Tickets</a>

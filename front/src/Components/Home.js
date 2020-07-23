@@ -8,7 +8,8 @@ import News from "./News";
 
 const Home = () => {
     return (
-     <div className="homeContainer">
+     <div className="homeContainer" >
+         <section id="perf" >
         <div className="performanceContainer">
         <Carousel autoPlay>
                 <div>
@@ -22,7 +23,9 @@ const Home = () => {
                 </div>
             </Carousel>
         </div>
-        <div className="aboutUsConatiner" id="about" >
+        </section>
+        <section id="about">
+        <div className="aboutUsConatiner" >
             <h2>About Us</h2>
             <div className="contentAboutUsContainer">
                 <div className="videoAboutUs">
@@ -34,13 +37,15 @@ const Home = () => {
                     <p>Since that start in 2000 we have entertained over a million people, and have worked with some extraordinary circus performers and creative.</p>
                 </div>
             </div>
-
+            
         </div>
+        </section>
+        <section id="news">
         <div className="newsConatiner">
             <h2>Wild Circus News</h2>
                 <News />
         </div>
-        
+        </section>
      </div>
     );
   };

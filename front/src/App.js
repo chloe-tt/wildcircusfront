@@ -4,6 +4,8 @@ import Navbar from '../src/Components/Navbar'
 import Home from './Components/Home'
 import Footer from './Components/Footer'
 import Buytickets from './Components/Buytickets'
+import Managenews from './Components/Createnews'
+
 
 
 function App() {
@@ -14,8 +16,10 @@ function App() {
           <Navbar />
           <Route path="/" component={Home} exact />
           <Route path="/buy-tickets" component={Buytickets} />
+          <Route path="/manage-news" component={Managenews} />
           <Footer />
         </div>
+        
       </Switch>
     
     </BrowserRouter>

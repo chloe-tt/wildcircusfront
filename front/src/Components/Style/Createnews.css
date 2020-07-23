@@ -1,0 +1,80 @@
+.AdminPageContainer {
+    padding-top: 100px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.CreateUserFormContainer{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 10px;
+    width:60%;
+  
+}
+
+.containerForm {
+    display:flex;
+    justify-content: center;
+    color:#edc62b; 
+    font-weight: bold;
+}
+
+label {
+    padding-left: 4%;
+}
+
+input#Title, input#Text, input#Picture, input#Date, input#User_name, input#User_id {
+    width: 90%;
+    margin-left: 4%;
+    height: 50px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+
+input#Text {
+    height: 220px;
+}
+
+.style {
+    box-shadow: 0 4px 8px 0 rgba(136, 126, 12, 0.4);
+    transition: 0.3s;
+    border:none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgba(14, 12, 12, 0.92);
+   
+}
+
+.placeholder {
+    margin-left: 4%;
+}
+
+.submitCTAContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.btn-primary{
+    background-color:rgba(63, 61, 61, 0.797);
+    color: white;
+    border-radius: 20px;
+    border:none;
+    height: 35px;
+    width: 140px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover{
+    background-color:rgb(63, 61, 61);
+    color: white;
+    border-radius: 20px;
+    border:none;
+    height: 35px;
+    width: 140px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor:pointer;
+}

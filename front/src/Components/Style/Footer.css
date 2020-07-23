@@ -41,6 +41,16 @@
 }
 
 .footerlink:hover {
-    color: #edc62b;
+    color: white;
     cursor: pointer;
+}
+
+a.footerlink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.footerlink:hover {
+    color: #edc62b;;
+    text-decoration: none;
 }
