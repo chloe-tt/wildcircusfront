@@ -81,7 +81,7 @@ input#Text {
 
 @media (max-width: 400px) {
     .CreateUserFormContainer {
-        width: 300px;
+        width: 280px;
         margin-left:-5%;
     }
 
