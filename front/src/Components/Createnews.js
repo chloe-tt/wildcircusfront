@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import "react-responsive-modal/styles.css";
 import "./Style/Createnews.css"
+import { Route, Redirect } from 'react-router-dom';
 
 
 class Createnews extends Component {
@@ -27,12 +28,17 @@ class Createnews extends Component {
         data: this.state,
       }).then((response) => {
         if (response.data.status === 'success') {
-          return response.data.status;
+          return response.data.status
           this.resetForm();
         } else if (response.data.status === 'fail') {
           return response.data.status;
         }
-      });
+        
+      }
+     
+      );
+     
+      
     }
   
     resetForm() {
@@ -167,7 +173,7 @@ class Createnews extends Component {
               
               
               <div className="submitCTAContainer" >
-              <button className="submitCTA" type="submit" onClick="this.onSubmit" className="btn-primary">
+              <button className="submitCTA" type="submit"  className="btn-primary">
                 Publish
               </button>
               </div>

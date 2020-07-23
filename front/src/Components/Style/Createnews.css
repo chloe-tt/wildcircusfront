@@ -78,3 +78,15 @@ input#Text {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     cursor:pointer;
 }
+
+@media (max-width: 400px) {
+    .CreateUserFormContainer {
+        width: 300px;
+        margin-left:-5%;
+    }
+
+    .TitleCreateUser {
+        margin-top: -5%;
+    }
+
+}

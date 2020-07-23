@@ -54,3 +54,22 @@ a.footerlink:hover {
     color: #edc62b;;
     text-decoration: none;
 }
+
+
+@media (max-width: 400px) {
+    .footerElement1, .footerElement2 {
+        display:flex;
+        justify-content:center;
+        text-align: center;
+    }
+
+    .containerElement3and4 {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align: center;
+        padding-top: 10%;
+
+    }
+
+}

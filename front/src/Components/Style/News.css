@@ -49,3 +49,9 @@
     font-size: 15px;
     padding-bottom: 20px;
 }
+
+@media (max-width: 400px) { 
+    .newsCardContainer {
+        margin-left: 6%;
+    }
+}

@@ -58,7 +58,7 @@ class Buytickets extends React.Component {
             <div className="tiltePageBuyTicket">
                 <h2 className="titleBuy" >Buy Tickets</h2>
             <div className="globalContainer">
-            <div className="buyContainer">
+                <div className="buyContainer">
                 <div className='productSection'>
                     <div className="labelContainer">
                         <div className="labelProduit">
@@ -70,7 +70,7 @@ class Buytickets extends React.Component {
                         <div className="label">
                             Quantity
                         </div>
-                        <div className="label">
+                        <div className="labelToal">
                             Total
                         </div>
                     </div>
@@ -120,9 +120,21 @@ class Buytickets extends React.Component {
 
                 </div>
                 <div className='subtotalSection'>
-                    <p className="subTitle">Subtotal:</p>
-                    <p className='subTotalEuros'>{this.state.kidsTotal + this.state.adultTotal} €</p> 
-                    <button className="checkoutCTA">Checkout</button>           
+                    <div className="containerTotal">
+                        <div>
+                        <p className="subTitle">Subtotal:</p>
+                        </div>
+                        <div classname="containerSubTotal">
+                        <p className='subTotalEuros'>{this.state.kidsTotal + this.state.adultTotal} €</p> 
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div className="containercheckoutCTA">
+                    <button className="checkoutCTA">Checkout</button>   
+                    </div>
+                            
                 </div>
             </div>
             <br />

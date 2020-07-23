@@ -1,0 +1,138 @@
+.manageNewsCardContainer {
+    display: flex;
+}
+
+.managePictureNews {
+    width: 100px;
+}
+
+.manageNewsContainer {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.manageNews {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 10px;
+    width:70%;
+
+  
+}
+
+.managePictureNewsCard, .manageTitleNewsCard, .manageTextNewsCard {
+   margin-left: 2%;
+   margin-top: 5%;
+   margin-right: 2%;
+}
+
+
+
+.manageNewsCardContainer {
+    display:flex;
+    justify-content: space-around;
+    border-bottom-color: #edc62b41;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;;
+}
+
+.managePictureNewsCard {
+    width: 100px;
+}
+
+.manageTitleNewsCard {
+    width: 300px
+}
+
+.containerManageNews {
+    display:flex;
+    justify-content: center;
+}
+
+.manageNewsCardContainer {
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+.editCTA {
+    border:none;
+    background-color: rgba(132, 185, 225, 0.859);
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold
+
+}
+
+.deleteCTA {
+    border:none;
+    background-color: rgb(194, 94, 94);
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold
+
+}
+
+.editCTA:hover {
+    border:none;
+    background-color: rgba(64, 160, 234, 0.859);
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.deleteCTA:hover {
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.addNewsCTA {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(41, 40, 40, 0.66);
+    color: white;
+    border-radius: 20px;
+    padding-top:1%;
+    font-weight:bold;
+}
+
+.addNewsCTA:hover {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border-radius: 20px;
+    padding-top:1%;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.containerAddCTA {
+    display: flex;
+    justify-content: center;
+}
+
+
+.containerAddNews {
+  
+    width: 70%;
+    display:flex;
+    justify-content:flex-end;
+    margin-top:-2%;
+    margin-bottom: 2%;
+
+}

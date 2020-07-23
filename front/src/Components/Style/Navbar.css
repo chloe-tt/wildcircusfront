@@ -75,3 +75,55 @@ a.headerElement:hover {
     color: #edc62b;
     text-decoration: none;
 }
+
+.buyCTAMobile{
+    display: none;
+}
+
+@media (max-width: 400px) {
+
+    .headerElement {
+        display:none;
+        }
+
+    .logoContainer {
+        width: 80%;
+        padding-top: 2%;
+    }
+
+    a.buyCTA {
+       padding-top: 5%;
+    }
+
+    .buyCTA {
+        font-size: 12px;
+    }
+   
+
+    .buyCTAMobile{
+        display: flex;
+    }
+
+    .logoContainer {
+        display: flex;
+        justify-content: flex-end;
+        width: 500px;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    .headerElementContainer {
+        display:none;
+    }
+
+    .buyCTAContainer {
+        width: 245px;
+        padding-top: 4%;
+        padding-right: 21%;
+    }
+
+   
+
+}

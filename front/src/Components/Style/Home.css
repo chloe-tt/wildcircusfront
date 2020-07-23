@@ -24,3 +24,29 @@ h2 {
 .videoAboutUs {
     padding-top:4%;
 }
+
+.slide {
+    width: 500px;
+    height: 450px;
+    
+}
+
+.homeContainer {
+    padding-top:70px;
+}
+
+@media (max-width: 400px) {
+    .slide {
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .textAboutUs {
+        width: 85%;
+    }
+}

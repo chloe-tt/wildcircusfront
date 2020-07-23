@@ -10,16 +10,17 @@ const Home = () => {
     return (
      <div className="homeContainer" >
          <section id="perf" >
+         <h2>Performance</h2>
         <div className="performanceContainer">
         <Carousel autoPlay>
                 <div>
-                <img src="https://zupimages.net/up/20/30/0l28.png" alt="Marvel at" />
+                <img className="slide" src="https://zupimages.net/up/20/30/0l28.png" alt="Marvel at" />
                 </div>
                 <div>
-                <img src="https://zupimages.net/up/20/30/hxr5.png" alt="Dream" />
+                <img className="slide" src="https://zupimages.net/up/20/30/hxr5.png" alt="Dream" />
                 </div>
                 <div>
-                    <img src="https://zupimages.net/up/20/30/0ehs.png" alt="" />
+                    <img className="slide" src="https://zupimages.net/up/20/30/0ehs.png" alt="" />
                 </div>
             </Carousel>
         </div>
