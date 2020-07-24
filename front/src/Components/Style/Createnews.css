@@ -79,6 +79,18 @@ input#Text {
     cursor:pointer;
 }
 
+.backtoManageCTA {
+    background-color: #edc62b;
+    width: 15%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 41.5%;
+    margin-top: 3%;
+    color: white;
+    font-weight: bold;
+}
+
 @media (max-width: 400px) {
     .CreateUserFormContainer {
         width: 280px;

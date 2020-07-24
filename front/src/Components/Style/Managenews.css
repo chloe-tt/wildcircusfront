@@ -96,6 +96,7 @@
     color: white;
     font-weight:bold;
     cursor:pointer;
+    background-color: rgb(250, 39, 39);
 }
 
 .addNewsCTA {

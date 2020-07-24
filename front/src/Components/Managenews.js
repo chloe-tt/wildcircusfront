@@ -6,10 +6,23 @@ import { NavLink } from 'react-router-dom';
 const ManageNews = () => {
   const [news, setNews] = useState([]);
   useEffect(() => {
-    Axios.get("http://localhost:3000/api/news").then((response) =>
-      setNews(response.data)
+    Axios.get("http://localhost:3000/api/news")
+    .then((response) => response.data)
+    .then((data)=> setNews(data));
+  }, []);
+
+  const newsDelete = (event, id) => {
+    console.log("event", event, "id", id)
+    Axios.delete(`http://localhost:3000/api/news/${id}`)
+    .then((res) =>
+    deleteNews(id)
     );
-  });
+  };
+
+  const deleteNews = (id) => {
+    const newNewsArray = news.filter((element) => element.id !== id);
+    setNews(newNewsArray)
+  }
   return (
       <div className="titleManage">
           
@@ -46,7 +59,7 @@ const ManageNews = () => {
               <button className="editCTA">Edit</button> 
             </div> 
             <div className="manageTextNewsCard">
-              <button className="deleteCTA">Delete</button> 
+              <button className="deleteCTA" onClick={(event) => newsDelete(event, neww.id)}>Delete</button> 
             </div> 
            
           </div>

@@ -3,6 +3,7 @@ import axios from 'axios';
 import "react-responsive-modal/styles.css";
 import "./Style/Createnews.css"
 import { Route, Redirect } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 class Createnews extends Component {
@@ -181,8 +182,11 @@ class Createnews extends Component {
             </form>
           </div>
           </div>
+          <NavLink className="backtoManageCTA" to="/manage-news">Back to manage news </NavLink>
           <br/>
           <br />
+
+          
         </div>
       );
     }

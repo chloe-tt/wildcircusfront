@@ -8,7 +8,7 @@ const Navbar = () => {
          <div className="logoContainer">
             
              <div>
-                <img className="logo" src="https://i.ibb.co/PtwDYn3/logo-3-final.jpg" alt="Wild Circus Logo" />
+             <NavLink to="/"> <img className="logo" src="https://zupimages.net/up/20/30/69q7.png" alt="Wild Circus Logo" /></NavLink>
              </div>
          
              
@@ -16,9 +16,9 @@ const Navbar = () => {
             
          </div>
          <div className="headerElementContainer">
-             <a className="headerElement" href="#perf">Performance</a>
-             <a className="headerElement" href="#about">About Us</a>
-             <a className="headerElement" href="#news" >News</a>
+             <a className="headerElement" href="/#perf">Performance</a>
+             <a className="headerElement" href="/#about">About Us</a>
+             <a className="headerElement" href="/#news" >News</a>
          </div>
          <div className="buyCTAContainer">
              <NavLink className="buyCTA" to="/buy-tickets">Buy Tickets</NavLink>
