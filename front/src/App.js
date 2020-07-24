@@ -9,6 +9,7 @@ import Managenews from './Components/Managenews'
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/buy-tickets" component={Buytickets} />
           <Route path="/create-news" component={Createnews} />
           <Route path="/manage-news" component={Managenews} />
+       
           <Footer />
         </div>
         
